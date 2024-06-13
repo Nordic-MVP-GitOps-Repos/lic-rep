@@ -12,6 +12,8 @@ spec:
           namespace: cp4i
         - name: cert-utils
           namespace: cert-utils-operator
+        - name: licenseservice
+          namespace: cp4i
   template:
     metadata:
       name: '{{name}}-operator'
