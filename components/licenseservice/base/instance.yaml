@@ -19,3 +19,8 @@ spec:
   chargebackEnabled: true
   instanceNamespace: cp4i
   routeEnabled: true
+  sender:
+    reporterSecretToken: ibm-license-service-reporter-token
+    reporterURL: https://ibm-license-service-reporter-cp4i.apps.666ad5c52a1f01001e5c5a11.cloud.techzone.ibm.com/
+    #clusterID: <cluster_id>
+    #clusterName: <your_cluster_name>
