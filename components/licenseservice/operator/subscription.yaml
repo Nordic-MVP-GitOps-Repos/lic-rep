@@ -3,7 +3,7 @@ kind: Subscription
 metadata:
   name: ibm-licensing-operator
 spec:
-  channel: 4.2
+  channel: '4.2'
   installPlanApproval: Automatic
   name: ibm-licensing-operator-app
   source: ibm-operator-catalog
