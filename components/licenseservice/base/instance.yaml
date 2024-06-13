@@ -1,0 +1,21 @@
+apiVersion: operator.ibm.com/v1alpha1
+kind: IBMLicensing
+metadata:
+  name: instance
+  labels:
+    app.kubernetes.io/instance: ibm-licensing-operator
+    app.kubernetes.io/managed-by: ibm-licensing-operator
+    app.kubernetes.io/name: ibm-licensing
+spec:
+  license:
+    accept: true
+  features:
+    auth:
+      urlBasedEnabled: true
+  version: 4.2.4
+  apiSecretToken: ibm-licensing-token
+  datasource: datacollector
+  httpsEnable: true
+  chargebackEnabled: true
+  instanceNamespace: cp4i
+  routeEnabled: true

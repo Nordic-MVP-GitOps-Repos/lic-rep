@@ -9,6 +9,9 @@ spec:
         - name: appconnect
           namespace: cp4i
           sync-wave: "300"
+        - name: licenseservice
+          namespace: cp4i
+          sync-wave: "300"
   template:
     metadata:
       name: '{{name}}'
