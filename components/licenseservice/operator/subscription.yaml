@@ -6,5 +6,5 @@ spec:
   channel: '4.2'
   installPlanApproval: Automatic
   name: ibm-licensing-operator-app
-  source: ibm-operator-catalog
+  source: ibm-licensing-catalog
   sourceNamespace: openshift-marketplace
