@@ -38,13 +38,13 @@ spec:
             #  value: '100'
           resources:
             limits:
-              cpu: 500m
+              cpu: 100m
               memory: 512Mi
             requests:
               cpu: 500m
               memory: 512Mi
   logFormat: basic
-  replicas: 1
+  replicas: 5
   barURL:
     - https://github.com/Nordic-MVP-GitOps-Repos/ace-hello-world/raw/main/ace-hello-world.bar
   configurations:
