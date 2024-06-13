@@ -12,6 +12,10 @@ spec:
         - name: licenseservice
           namespace: cp4i
           sync-wave: "300"
+        - name: licenseservicereporter
+          namespace: cp4i
+          sync-wave: "300"
+        
   template:
     metadata:
       name: '{{name}}'
