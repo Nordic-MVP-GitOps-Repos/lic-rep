@@ -44,7 +44,7 @@ spec:
               cpu: 500m
               memory: 512Mi
   logFormat: basic
-  replicas: 5
+  replicas: 3
   barURL:
     - https://github.com/Nordic-MVP-GitOps-Repos/ace-hello-world/raw/main/ace-hello-world.bar
   configurations:
